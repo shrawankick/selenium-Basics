@@ -27,6 +27,7 @@ namespace selenium
         public void Test()
         {
             driver.Url = "https://www.google.co.in/";
+            Console.WriteLine("browser opened");
         }
 
         [TearDown]
